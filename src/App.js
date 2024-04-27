@@ -29,8 +29,8 @@ function App() {
     <ResponsiveAppBar />
       <Home />
       <Routes>
-        <Route path="/CustomizedDialogs" element={<CustomizedDialogs />} />
-        <Route path="/WaiverDialog/:id" element={<WaiverDialog />} />
+        <Route path="/bfs/CustomizedDialogs" element={<CustomizedDialogs />} />
+        <Route path="/bfs/WaiverDialog/:id" element={<WaiverDialog />} />
         {/* <Route path="Waiver/RateLock" element={<RateLock />} /> */}
       </Routes>
     </>

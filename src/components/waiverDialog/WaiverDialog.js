@@ -102,7 +102,7 @@ export default function WaiverDialog() {
   const handleClose = () => {
     setOpen(false);
     setFull(false);
-    navigate('/'); 
+    navigate('/bfs'); 
   };
 
   const handleSave = () => {

@@ -76,11 +76,11 @@ export default function CustomizedDialogs() {
   const handleClose = () => {
     setOpen(false);
     setFull(false)
-    navigate('/')
+    navigate('/bfs')
   };
 
   const handleWaiver = () => {
-    navigate('/WaiverDialog')
+    navigate('/bfs/WaiverDialog')
   }
 
   const FullScr = () => {

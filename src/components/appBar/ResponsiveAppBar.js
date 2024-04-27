@@ -13,7 +13,7 @@ const ResponsiveAppBar = () => {
             variant="h5"
             noWrap
             component="a"
-            href="/"
+            href="/bfs"
             sx={{
               mr: 2,
               fontFamily: "monospace",
