@@ -1,0 +1,32 @@
+body{
+    margin-left: 1%;
+}
+.heading{
+    margin-top: 70px;
+    margin-bottom: 1%;
+}
+
+.searchDiv{
+    margin-bottom: 3%;
+}
+
+.searchBar{
+    width: 40%;
+    /* margin-right: 4%; */
+    /* border: none; */
+    /* border-bottom: 1px solid black; */
+    /* padding: 0.6% 1%; */
+    /* padding-bottom: 0.6%; */
+    /* padding-left: 1%; */
+}
+
+.searchBtn{
+    color: black;
+    border-radius: 0%;
+    border: none;
+    font-weight: 700;
+    margin-left: 2%;
+    margin-top: 0.7%;
+    padding: 4px 15px 0 0;
+    background-color: rgb(234, 232, 232);
+}

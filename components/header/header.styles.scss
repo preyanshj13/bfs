@@ -1,0 +1,13 @@
+.align-top{
+    border-radius: 25px;
+}
+.header{
+    background-color:#11477B;
+    color: white;
+}
+
+@media(max-width:858px) {
+    .header{
+        width: 1000px;
+    }
+  }

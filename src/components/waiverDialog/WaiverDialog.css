@@ -1,0 +1,81 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 15px;
+}
+
+.waivers {
+    margin: 0 0 0 2.5%;
+}
+
+.detailBox {
+    border: 1px solid gray;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 30px rgb(189, 189, 189);
+}
+
+.amountRow {
+    background-color: rgb(166, 205, 212);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 3px 10px;
+}
+
+.totAmount {
+    font-size: small;
+    letter-spacing: 1%;
+    font-weight: 700;
+}
+
+.textfields{
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.approved{
+    width: 29%;
+    /* margin: 10px; */
+}
+
+.reason{
+    width: 68%;
+    /* margin-left: 10%; */
+}
+
+.itemHead{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.detailRow{
+    padding: 0 0 15px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.applies, .amount, .modifiedBy, .modifiedDate {
+    width: 20%;
+    
+    /* margin: 103px; */
+}
+
+.remove{
+    align-self: flex-end;
+    /* margin-bottom: -10px; */
+    margin: 0 10px;
+    font-size: small;
+    font-weight: 600;
+}
+
+.abc{
+    margin-bottom: -3px;
+}
+
+hr{
+    border-color: lightgrey;
+}

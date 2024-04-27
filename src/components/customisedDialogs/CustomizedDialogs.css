@@ -1,0 +1,55 @@
+.headerRow{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1%;
+}
+
+.rateLock{
+    margin: 0 0 0 1.5%;
+}
+
+.fullbtn{
+    height: fit-content;
+    align-items: center;
+    /* margin-right: 10px;     */
+    /* font-size: small; */
+    /* color: black; */
+    /* padding: 0; */
+    /* size: small; */
+    /* background-color: lightgray; */
+}
+
+#status {
+    font-size: small;
+    margin-bottom: 2%;
+}
+
+.radios {
+    /* font-size: 10px; */
+    /* size: 10px; */
+    margin: 0 0 10% 4px;
+}
+
+.row1 {
+    margin-bottom: 2%;
+}
+
+.from, .till, .ftp{
+    margin: 0 0 0 2%;
+}
+
+.valid, .expiry, .ftp{
+    width: 30%;
+    /* margin-bottom: 5%; */
+    /* margin: 0 2% 0 2%; */
+}
+
+.notes {
+    width: 94%;
+    margin-left: 2%;
+}
+
+/* #standard-basic{
+    width: 350px;
+} */
