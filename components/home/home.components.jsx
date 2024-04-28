@@ -86,7 +86,7 @@ const Home=()=>{
         switch (value) {
         case "catch":
         // swal("Approved", "Record has been approved successfully");
-        navigate(`/Waiver/${e.data.id}`)
+        navigate(`/bfs/Waiver/${e.data.id}`)
         console.log(`approved ${e.data.status}`)
         break;
          

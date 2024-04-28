@@ -135,7 +135,7 @@ function Home() {
       switch (value) {
         case "catch":
           // swal("Approved", "Record has been approved successfully");
-          navigate(`/WaiverDialog/${e.data.id}`)
+          navigate(`/bfs/WaiverDialog/${e.data.id}`)
           console.log(`approved ${e.data.status}`)
           break;
 
