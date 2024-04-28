@@ -110,7 +110,7 @@ export default function WaiverDialog() {
     // axios.put(`https://my-json-server.typicode.com/preyanshj13/mockjsons/records/${id}`, {borrower, address, city, country, amount, type, product, status, days, approver, reason})
     axios.put(`http://localhost:3000/records/${id}`, {borrower, address, city, country, amount, type, product, status, days, approver, reason})
       .then(setBorrower(borrower), setAddress(address), setCity(city), setCountry(country), setAmount(amount), setType(type), setProduct(product), setStatus(status), setDays(days), setApprover(approver),setReason(reason))
-      .then(navigate('/')) 
+      .then(navigate('/bfs/CustomizedDialogs')) 
     // .then(console.log(id))
   }
 
