@@ -80,7 +80,7 @@ export default function CustomizedDialogs() {
   };
 
   const handleWaiver = () => {
-    navigate('/bfs/WaiverDialog')
+    navigate('/bfs')
   }
 
   const FullScr = () => {
